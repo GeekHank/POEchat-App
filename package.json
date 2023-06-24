@@ -1,0 +1,30 @@
+{
+  "name": "poee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.11.7"
+  },
+  "build": {
+    "appId": "com.POEE",
+    "mac": {
+      "icon": "app-icon.icns",
+      "target": "dmg"
+    },
+    "win": {
+      "icon": "app-icon.png"
+    },
+    "linux": {
+      "icon": "app-icon.png"
+    }
+  },
+  "license": "ISC"
+}
